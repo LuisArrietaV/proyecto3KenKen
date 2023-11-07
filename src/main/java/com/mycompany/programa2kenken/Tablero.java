@@ -376,7 +376,7 @@ public class Tablero extends JPanel{
 
                     
                     if (fila == 0 && columna == 0 ) {
-                        TextPrompt placeholder = new TextPrompt("11+", listaKenkenTxt[fila][columna]);
+                        PlaceHolders placeholder = new PlaceHolders("11+", listaKenkenTxt[fila][columna]);
                         placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                     }
                     
@@ -390,7 +390,7 @@ public class Tablero extends JPanel{
                     listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 4, 4, colorPanel));
                 }
                 if (fila == 0 && columna == 2) {
-                    TextPrompt placeholder = new TextPrompt("120x", listaKenkenTxt[fila][columna]);
+                    PlaceHolders placeholder = new PlaceHolders("120x", listaKenkenTxt[fila][columna]);
                     placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                     
                     listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 1, 4, colorPanel));
@@ -402,7 +402,7 @@ public class Tablero extends JPanel{
                     listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 4, 1, colorPanel));
                 }
                 if (fila == 0 && columna == 3) {
-                    TextPrompt placeholder = new TextPrompt("3+", listaKenkenTxt[fila][columna]);
+                    PlaceHolders placeholder = new PlaceHolders("3+", listaKenkenTxt[fila][columna]);
                     placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                     listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 1, 4, colorPanel));
                 }
@@ -410,23 +410,23 @@ public class Tablero extends JPanel{
                     listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 4, 4, colorPanel));
                 }
                 if (fila == 0 && columna == 4) {
-                    TextPrompt placeholder = new TextPrompt("3", listaKenkenTxt[fila][columna]);
+                    PlaceHolders placeholder = new PlaceHolders("3", listaKenkenTxt[fila][columna]);
                     placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                     listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 4, 4, colorPanel));
                 }
                 if (fila == 0 && columna == 5) {
-                    TextPrompt placeholder = new TextPrompt("2-", listaKenkenTxt[fila][columna]);
+                    PlaceHolders placeholder = new PlaceHolders("2-", listaKenkenTxt[fila][columna]);
                     placeholder.setFont(new Font("Arial", Font.BOLD, 9));   
                 }
                 if (fila == 1 && columna == 4) {
-                    TextPrompt placeholder = new TextPrompt("11+", listaKenkenTxt[fila][columna]);
+                    PlaceHolders placeholder = new PlaceHolders("11+", listaKenkenTxt[fila][columna]);
                     placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                 }
                 if (fila == 1 && columna == 5) {
                     listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 4, 4, 1, colorPanel));
                 }
                 if (fila == 2 && columna == 0) {
-                    TextPrompt placeholder = new TextPrompt("3+", listaKenkenTxt[fila][columna]);
+                    PlaceHolders placeholder = new PlaceHolders("3+", listaKenkenTxt[fila][columna]);
                     placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                     listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 4, 1, colorPanel));
                 }
@@ -434,22 +434,22 @@ public class Tablero extends JPanel{
                     listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 4, 4, colorPanel));
                 }
                 if (fila == 2 && columna == 2) {
-                    TextPrompt placeholder = new TextPrompt("15X", listaKenkenTxt[fila][columna]);
+                    PlaceHolders placeholder = new PlaceHolders("15X", listaKenkenTxt[fila][columna]);
                     placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                     listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 1, 4, colorPanel));
                 }
                 if (fila == 2 && columna == 3) {
-                    TextPrompt placeholder = new TextPrompt("1-", listaKenkenTxt[fila][columna]);
+                    PlaceHolders placeholder = new PlaceHolders("1-", listaKenkenTxt[fila][columna]);
                     placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                     listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 1, 4, colorPanel));
                 }
                 if (fila == 2 && columna == 5) {
-                    TextPrompt placeholder = new TextPrompt("6", listaKenkenTxt[fila][columna]);
+                    PlaceHolders placeholder = new PlaceHolders("6", listaKenkenTxt[fila][columna]);
                     placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                     listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 4, 1, 1, colorPanel));
                 }
                 if (fila == 3 && columna == 0) {
-                    TextPrompt placeholder = new TextPrompt("72X", listaKenkenTxt[fila][columna]);
+                    PlaceHolders placeholder = new PlaceHolders("72X", listaKenkenTxt[fila][columna]);
                     placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                 }
                 if (fila == 3 && columna == 1) {
@@ -462,7 +462,7 @@ public class Tablero extends JPanel{
                     listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 4, 4, colorPanel));
                 }
                 if (fila == 3 && columna == 4) {
-                    TextPrompt placeholder = new TextPrompt("8X", listaKenkenTxt[fila][columna]);
+                    PlaceHolders placeholder = new PlaceHolders("8X", listaKenkenTxt[fila][columna]);
                     placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                     listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(4, 1, 1, 1, colorPanel));
                 }
@@ -473,7 +473,7 @@ public class Tablero extends JPanel{
                     listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 4, 4, colorPanel));
                 }
                 if (fila == 4 && columna == 1) {
-                    TextPrompt placeholder = new TextPrompt("3+", listaKenkenTxt[fila][columna]);
+                    PlaceHolders placeholder = new PlaceHolders("3+", listaKenkenTxt[fila][columna]);
                     placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                     listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 4, 1, colorPanel));
                 }
@@ -481,7 +481,7 @@ public class Tablero extends JPanel{
                     listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 4, 4, colorPanel));
                 }
                 if (fila == 4 && columna == 3) {
-                    TextPrompt placeholder = new TextPrompt("13+", listaKenkenTxt[fila][columna]);
+                    PlaceHolders placeholder = new PlaceHolders("13+", listaKenkenTxt[fila][columna]);
                     placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                     listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 1, 4, colorPanel));
                 }
@@ -489,15 +489,15 @@ public class Tablero extends JPanel{
                     listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 4, 4, colorPanel));
                 }
                 if (fila == 4 && columna == 5) {
-                    TextPrompt placeholder = new TextPrompt("9+", listaKenkenTxt[fila][columna]);
+                    PlaceHolders placeholder = new PlaceHolders("9+", listaKenkenTxt[fila][columna]);
                     placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                 }
                 if (fila == 5 && columna == 0) {
-                    TextPrompt placeholder = new TextPrompt("2/", listaKenkenTxt[fila][columna]);
+                    PlaceHolders placeholder = new PlaceHolders("2/", listaKenkenTxt[fila][columna]);
                     placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                 }
                 if (fila == 5 && columna == 2) {
-                    TextPrompt placeholder = new TextPrompt("1", listaKenkenTxt[fila][columna]);
+                    PlaceHolders placeholder = new PlaceHolders("1", listaKenkenTxt[fila][columna]);
                     placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                     listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 4, 1, 4, colorPanel));
                 }
@@ -510,7 +510,7 @@ public class Tablero extends JPanel{
                     listaKenkenTxt[fila][columna].setBorder(BorderFactory.createLineBorder(colorPanel, 1));
                     
                     if (fila == 0 && columna == 0 ) {
-                        TextPrompt placeholder = new TextPrompt("80x", listaKenkenTxt[fila][columna]);
+                        PlaceHolders placeholder = new PlaceHolders("80x", listaKenkenTxt[fila][columna]);
                         placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                     }
                     
@@ -518,17 +518,17 @@ public class Tablero extends JPanel{
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 4, 4, colorPanel));
                     }
                     if (fila == 0 && columna == 2 ) {
-                        TextPrompt placeholder = new TextPrompt("11+", listaKenkenTxt[fila][columna]);
+                        PlaceHolders placeholder = new PlaceHolders("11+", listaKenkenTxt[fila][columna]);
                         placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 1, 4, colorPanel));
                     }
                     if (fila == 0 && columna == 3 ) {
-                        TextPrompt placeholder = new TextPrompt("6x", listaKenkenTxt[fila][columna]);
+                        PlaceHolders placeholder = new PlaceHolders("6x", listaKenkenTxt[fila][columna]);
                         placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 1, 4, colorPanel));
                     }
                     if (fila == 0 && columna == 4 ) {
-                        TextPrompt placeholder = new TextPrompt("3/", listaKenkenTxt[fila][columna]);
+                        PlaceHolders placeholder = new PlaceHolders("3/", listaKenkenTxt[fila][columna]);
                         placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 4, 1, colorPanel));
                     }
@@ -539,7 +539,7 @@ public class Tablero extends JPanel{
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 4, 4, colorPanel));
                     }
                     if (fila == 1 && columna == 1 ) {
-                        TextPrompt placeholder = new TextPrompt("5-", listaKenkenTxt[fila][columna]);
+                        PlaceHolders placeholder = new PlaceHolders("5-", listaKenkenTxt[fila][columna]);
                         placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 1, 4, colorPanel));
                     }
@@ -550,7 +550,7 @@ public class Tablero extends JPanel{
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 4, 4, colorPanel));
                     }
                     if (fila == 1 && columna == 4 ) {
-                        TextPrompt placeholder = new TextPrompt("3/", listaKenkenTxt[fila][columna]);
+                        PlaceHolders placeholder = new PlaceHolders("3/", listaKenkenTxt[fila][columna]);
                         placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 4, 1, colorPanel));
                     }
@@ -558,7 +558,7 @@ public class Tablero extends JPanel{
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 4, 1, colorPanel));
                     }
                     if (fila == 2 && columna == 0 ) {
-                        TextPrompt placeholder = new TextPrompt("6x", listaKenkenTxt[fila][columna]);
+                        PlaceHolders placeholder = new PlaceHolders("6x", listaKenkenTxt[fila][columna]);
                         placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 1, 4, colorPanel));
                     }
@@ -566,7 +566,7 @@ public class Tablero extends JPanel{
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 4, 4, colorPanel));
                     }
                     if (fila == 2 && columna == 2 ) {
-                        TextPrompt placeholder = new TextPrompt("5+", listaKenkenTxt[fila][columna]);
+                        PlaceHolders placeholder = new PlaceHolders("5+", listaKenkenTxt[fila][columna]);
                         placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 4, 1, colorPanel));
                     }
@@ -574,24 +574,24 @@ public class Tablero extends JPanel{
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 4, 4, colorPanel));
                     }
                     if (fila == 2 && columna == 4 ) {
-                        TextPrompt placeholder = new TextPrompt("5", listaKenkenTxt[fila][columna]);
+                        PlaceHolders placeholder = new PlaceHolders("5", listaKenkenTxt[fila][columna]);
                         placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 4, 4, colorPanel));
                     }
                     if (fila == 2 && columna == 5 ) {
-                        TextPrompt placeholder = new TextPrompt("14+", listaKenkenTxt[fila][columna]);
+                        PlaceHolders placeholder = new PlaceHolders("14+", listaKenkenTxt[fila][columna]);
                         placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                     }
                     if (fila == 3 && columna == 0) {
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 4, 4, colorPanel));
                     }
                     if (fila == 3 && columna == 1) {
-                        TextPrompt placeholder = new TextPrompt("2", listaKenkenTxt[fila][columna]);
+                        PlaceHolders placeholder = new PlaceHolders("2", listaKenkenTxt[fila][columna]);
                         placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 4, 4, colorPanel));
                     }
                     if (fila == 3 && columna == 2) {
-                        TextPrompt placeholder = new TextPrompt("1-", listaKenkenTxt[fila][columna]);
+                        PlaceHolders placeholder = new PlaceHolders("1-", listaKenkenTxt[fila][columna]);
                         placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 4, 1, colorPanel));
                     }
@@ -599,12 +599,12 @@ public class Tablero extends JPanel{
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 4, 4, colorPanel));
                     }
                     if (fila == 3 && columna == 4) {
-                        TextPrompt placeholder = new TextPrompt("8x", listaKenkenTxt[fila][columna]);
+                        PlaceHolders placeholder = new PlaceHolders("8x", listaKenkenTxt[fila][columna]);
                         placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 1, 4, colorPanel));
                     }
                     if (fila == 4 && columna == 0) {
-                        TextPrompt placeholder = new TextPrompt("3/", listaKenkenTxt[fila][columna]);
+                        PlaceHolders placeholder = new PlaceHolders("3/", listaKenkenTxt[fila][columna]);
                         placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 4, 1, colorPanel));
                     }
@@ -612,12 +612,12 @@ public class Tablero extends JPanel{
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 4, 4, colorPanel));
                     }
                     if (fila == 4 && columna == 2) {
-                        TextPrompt placeholder = new TextPrompt("1-", listaKenkenTxt[fila][columna]);
+                        PlaceHolders placeholder = new PlaceHolders("1-", listaKenkenTxt[fila][columna]);
                         placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 1, 4, colorPanel));
                     }
                     if (fila == 4 && columna == 3) {
-                        TextPrompt placeholder = new TextPrompt("5-", listaKenkenTxt[fila][columna]);
+                        PlaceHolders placeholder = new PlaceHolders("5-", listaKenkenTxt[fila][columna]);
                         placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 1, 4, colorPanel));
                     }
@@ -628,7 +628,7 @@ public class Tablero extends JPanel{
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 4, 1, colorPanel));
                     }
                     if (fila == 5 && columna == 0) {
-                        TextPrompt placeholder = new TextPrompt("11+", listaKenkenTxt[fila][columna]);
+                        PlaceHolders placeholder = new PlaceHolders("11+", listaKenkenTxt[fila][columna]);
                         placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                     }
                     if (fila == 5 && columna == 1) {
@@ -644,7 +644,7 @@ public class Tablero extends JPanel{
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 1, 4, colorPanel));
                     }
                     if (fila == 5 && columna == 5) {
-                        TextPrompt placeholder = new TextPrompt("4", listaKenkenTxt[fila][columna]);
+                        PlaceHolders placeholder = new PlaceHolders("4", listaKenkenTxt[fila][columna]);
                         placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                     }
                 }
@@ -653,7 +653,7 @@ public class Tablero extends JPanel{
                     listaKenkenTxt[fila][columna].setBorder(BorderFactory.createLineBorder(colorPanel, 1));
                     
                     if (fila == 0 && columna == 0 ) {
-                        TextPrompt placeholder = new TextPrompt("3/", listaKenkenTxt[fila][columna]);
+                        PlaceHolders placeholder = new PlaceHolders("3/", listaKenkenTxt[fila][columna]);
                         placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 4, 1, colorPanel));
                     }
@@ -662,7 +662,7 @@ public class Tablero extends JPanel{
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 4, 4, colorPanel));
                     }
                     if (fila == 0 && columna == 2 ) {
-                        TextPrompt placeholder = new TextPrompt("40x", listaKenkenTxt[fila][columna]);
+                        PlaceHolders placeholder = new PlaceHolders("40x", listaKenkenTxt[fila][columna]);
                         placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 4, 1, colorPanel));
                     }
@@ -673,11 +673,11 @@ public class Tablero extends JPanel{
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 4, 4, colorPanel));
                     }
                     if (fila == 0 && columna == 5 ) {
-                        TextPrompt placeholder = new TextPrompt("5-", listaKenkenTxt[fila][columna]);
+                        PlaceHolders placeholder = new PlaceHolders("5-", listaKenkenTxt[fila][columna]);
                         placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                     }
                     if (fila == 1 && columna == 0 ) {
-                        TextPrompt placeholder = new TextPrompt("10+", listaKenkenTxt[fila][columna]);
+                        PlaceHolders placeholder = new PlaceHolders("10+", listaKenkenTxt[fila][columna]);
                         placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 4, 1, colorPanel));
                     }
@@ -688,7 +688,7 @@ public class Tablero extends JPanel{
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 4, 4, colorPanel));
                     }
                     if (fila == 1 && columna == 3 ) {
-                        TextPrompt placeholder = new TextPrompt("16+", listaKenkenTxt[fila][columna]);
+                        PlaceHolders placeholder = new PlaceHolders("16+", listaKenkenTxt[fila][columna]);
                         placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                     }
                     if (fila == 1 && columna == 4 ) {
@@ -698,17 +698,17 @@ public class Tablero extends JPanel{
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 4, 1, colorPanel));
                     }
                     if (fila == 2 && columna == 0 ) {
-                        TextPrompt placeholder = new TextPrompt("6+", listaKenkenTxt[fila][columna]);
+                        PlaceHolders placeholder = new PlaceHolders("6+", listaKenkenTxt[fila][columna]);
                         placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 1, 4, colorPanel));
                     }
                     if (fila == 2 && columna == 1 ) {
-                        TextPrompt placeholder = new TextPrompt("5-", listaKenkenTxt[fila][columna]);
+                        PlaceHolders placeholder = new PlaceHolders("5-", listaKenkenTxt[fila][columna]);
                         placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 1, 4, colorPanel));
                     }
                     if (fila == 2 && columna == 2 ) {
-                        TextPrompt placeholder = new TextPrompt("4", listaKenkenTxt[fila][columna]);
+                        PlaceHolders placeholder = new PlaceHolders("4", listaKenkenTxt[fila][columna]);
                         placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 4, 4, colorPanel));
                     }
@@ -716,7 +716,7 @@ public class Tablero extends JPanel{
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 4, 4, colorPanel));
                     }
                     if (fila == 2 && columna == 4 ) {
-                        TextPrompt placeholder = new TextPrompt("75x", listaKenkenTxt[fila][columna]);
+                        PlaceHolders placeholder = new PlaceHolders("75x", listaKenkenTxt[fila][columna]);
                         placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                     }
                     if (fila == 2 && columna == 5 ) {
@@ -729,7 +729,7 @@ public class Tablero extends JPanel{
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 4, 4, colorPanel));
                     }
                     if (fila == 3 && columna == 2 ) {
-                        TextPrompt placeholder = new TextPrompt("3+", listaKenkenTxt[fila][columna]);
+                        PlaceHolders placeholder = new PlaceHolders("3+", listaKenkenTxt[fila][columna]);
                         placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 4, 1, colorPanel));
                     }
@@ -740,12 +740,12 @@ public class Tablero extends JPanel{
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 4, 4, colorPanel));
                     }
                     if (fila == 3 && columna == 5 ) {
-                        TextPrompt placeholder = new TextPrompt("3", listaKenkenTxt[fila][columna]);
+                        PlaceHolders placeholder = new PlaceHolders("3", listaKenkenTxt[fila][columna]);
                         placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 4, 1, colorPanel));
                     }
                     if (fila == 4 && columna == 0 ) {
-                        TextPrompt placeholder = new TextPrompt("15+", listaKenkenTxt[fila][columna]);
+                        PlaceHolders placeholder = new PlaceHolders("15+", listaKenkenTxt[fila][columna]);
                         placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 4, 1, colorPanel));
                     }
@@ -753,26 +753,26 @@ public class Tablero extends JPanel{
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 1, 4, colorPanel));
                     }
                     if (fila == 4 && columna == 2 ) {
-                        TextPrompt placeholder = new TextPrompt("5-", listaKenkenTxt[fila][columna]);
+                        PlaceHolders placeholder = new PlaceHolders("5-", listaKenkenTxt[fila][columna]);
                         placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 1, 4, colorPanel));
                     }
                     if (fila == 4 && columna == 3 ) {
-                        TextPrompt placeholder = new TextPrompt("8+", listaKenkenTxt[fila][columna]);
+                        PlaceHolders placeholder = new PlaceHolders("8+", listaKenkenTxt[fila][columna]);
                         placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 1, 4, colorPanel));
                     }
                     if (fila == 4 && columna == 4 ) {
-                        TextPrompt placeholder = new TextPrompt("2/", listaKenkenTxt[fila][columna]);
+                        PlaceHolders placeholder = new PlaceHolders("2/", listaKenkenTxt[fila][columna]);
                         placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 1, 4, colorPanel));
                     }
                     if (fila == 4 && columna == 5 ) {
-                        TextPrompt placeholder = new TextPrompt("2/", listaKenkenTxt[fila][columna]);
+                        PlaceHolders placeholder = new PlaceHolders("2/", listaKenkenTxt[fila][columna]);
                         placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                     }
                     if (fila == 5 && columna == 0 ) {
-                        TextPrompt placeholder = new TextPrompt("3", listaKenkenTxt[fila][columna]);
+                        PlaceHolders placeholder = new PlaceHolders("3", listaKenkenTxt[fila][columna]);
                         placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 1, 4, colorPanel));
                     }
@@ -800,12 +800,12 @@ public class Tablero extends JPanel{
 
                     
                     if (fila == 0 && columna == 0 ) {
-                        TextPrompt placeholder = new TextPrompt("4-", listaKenkenTxt[fila][columna]);
+                        PlaceHolders placeholder = new PlaceHolders("4-", listaKenkenTxt[fila][columna]);
                         placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 1, 4, colorPanel));
                     }
                     if (fila == 0 && columna == 1 ) {
-                        TextPrompt placeholder = new TextPrompt("2/", listaKenkenTxt[fila][columna]);
+                        PlaceHolders placeholder = new PlaceHolders("2/", listaKenkenTxt[fila][columna]);
                         placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 4, 1, colorPanel));             
                     }
@@ -813,12 +813,12 @@ public class Tablero extends JPanel{
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 4, 4, colorPanel));             
                     }
                     if (fila == 0 && columna == 3 ) {
-                        TextPrompt placeholder = new TextPrompt("36x", listaKenkenTxt[fila][columna]);
+                        PlaceHolders placeholder = new PlaceHolders("36x", listaKenkenTxt[fila][columna]);
                         placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 1, 4, colorPanel));             
                     }
                     if (fila == 0 && columna == 4 ) {
-                        TextPrompt placeholder = new TextPrompt("30x", listaKenkenTxt[fila][columna]);
+                        PlaceHolders placeholder = new PlaceHolders("30x", listaKenkenTxt[fila][columna]);
                         placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 4, 1, colorPanel));             
                     }
@@ -829,7 +829,7 @@ public class Tablero extends JPanel{
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 4, 4, colorPanel));             
                     }
                     if (fila == 1 && columna == 1 ) {
-                        TextPrompt placeholder = new TextPrompt("7+", listaKenkenTxt[fila][columna]);
+                        PlaceHolders placeholder = new PlaceHolders("7+", listaKenkenTxt[fila][columna]);
                         placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 4, 1, colorPanel));             
                     }
@@ -843,21 +843,21 @@ public class Tablero extends JPanel{
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 4, 4, colorPanel));             
                     }
                     if (fila == 1 && columna == 5 ) {
-                        TextPrompt placeholder = new TextPrompt("12x", listaKenkenTxt[fila][columna]);
+                        PlaceHolders placeholder = new PlaceHolders("12x", listaKenkenTxt[fila][columna]);
                         placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                     }
                     if (fila == 2 && columna == 0 ) {
-                        TextPrompt placeholder = new TextPrompt("3/", listaKenkenTxt[fila][columna]);
+                        PlaceHolders placeholder = new PlaceHolders("3/", listaKenkenTxt[fila][columna]);
                         placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 1, 4, colorPanel));             
                     }
                     if (fila == 2 && columna == 1 ) {
-                        TextPrompt placeholder = new TextPrompt("5-", listaKenkenTxt[fila][columna]);
+                        PlaceHolders placeholder = new PlaceHolders("5-", listaKenkenTxt[fila][columna]);
                         placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 1, 4, colorPanel));             
                     }
                     if (fila == 2 && columna == 2 ) {
-                        TextPrompt placeholder = new TextPrompt("6x", listaKenkenTxt[fila][columna]);
+                        PlaceHolders placeholder = new PlaceHolders("6x", listaKenkenTxt[fila][columna]);
                         placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 4, 1, colorPanel));             
                     }
@@ -865,7 +865,7 @@ public class Tablero extends JPanel{
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 4, 4, colorPanel));
                     }
                     if (fila == 2 && columna == 4 ) {
-                        TextPrompt placeholder = new TextPrompt("20x", listaKenkenTxt[fila][columna]);
+                        PlaceHolders placeholder = new PlaceHolders("20x", listaKenkenTxt[fila][columna]);
                         placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 1, 4, colorPanel));             
                     }
@@ -876,7 +876,7 @@ public class Tablero extends JPanel{
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 4, 4, colorPanel));
                     }
                     if (fila == 3 && columna == 2 ) {
-                        TextPrompt placeholder = new TextPrompt("7+", listaKenkenTxt[fila][columna]);
+                        PlaceHolders placeholder = new PlaceHolders("7+", listaKenkenTxt[fila][columna]);
                         placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                     }
                     if (fila == 3 && columna == 3 ) {
@@ -889,7 +889,7 @@ public class Tablero extends JPanel{
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 4, 1, colorPanel));
                     }
                     if (fila == 4 && columna == 0 ) {
-                        TextPrompt placeholder = new TextPrompt("9+", listaKenkenTxt[fila][columna]);
+                        PlaceHolders placeholder = new PlaceHolders("9+", listaKenkenTxt[fila][columna]);
                         placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                     }
                     if (fila == 4 && columna == 1 ) {
@@ -899,24 +899,24 @@ public class Tablero extends JPanel{
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 4, 4, colorPanel));
                     }
                     if (fila == 4 && columna == 3 ) {
-                        TextPrompt placeholder = new TextPrompt("1-", listaKenkenTxt[fila][columna]);
+                        PlaceHolders placeholder = new PlaceHolders("1-", listaKenkenTxt[fila][columna]);
                         placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 1, 4, colorPanel));             
                     }
                     if (fila == 4 && columna == 4 ) {
-                        TextPrompt placeholder = new TextPrompt("2-", listaKenkenTxt[fila][columna]);
+                        PlaceHolders placeholder = new PlaceHolders("2-", listaKenkenTxt[fila][columna]);
                         placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 1, 4, colorPanel));             
                     }
                     if (fila == 4 && columna == 5 ) {
-                        TextPrompt placeholder = new TextPrompt("3/", listaKenkenTxt[fila][columna]);
+                        PlaceHolders placeholder = new PlaceHolders("3/", listaKenkenTxt[fila][columna]);
                         placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                     }
                     if (fila == 5 && columna == 0 ) {
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 1, 4, colorPanel));
                     }
                     if (fila == 5 && columna == 1 ) {
-                        TextPrompt placeholder = new TextPrompt("1-", listaKenkenTxt[fila][columna]);
+                        PlaceHolders placeholder = new PlaceHolders("1-", listaKenkenTxt[fila][columna]);
                         placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                     }
                     if (fila == 5 && columna == 2 ) {
@@ -937,12 +937,12 @@ public class Tablero extends JPanel{
 
                     
                     if (fila == 0 && columna == 0 ) {
-                        TextPrompt placeholder = new TextPrompt("3/", listaKenkenTxt[fila][columna]);
+                        PlaceHolders placeholder = new PlaceHolders("3/", listaKenkenTxt[fila][columna]);
                         placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 1, 4, colorPanel));
                     }
                     if (fila == 0 && columna == 1 ) {
-                        TextPrompt placeholder = new TextPrompt("1-", listaKenkenTxt[fila][columna]);
+                        PlaceHolders placeholder = new PlaceHolders("1-", listaKenkenTxt[fila][columna]);
                         placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 4, 1, colorPanel));             
                     }
@@ -950,29 +950,29 @@ public class Tablero extends JPanel{
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 4, 4, colorPanel));             
                     }
                     if (fila == 0 && columna == 3 ) {
-                        TextPrompt placeholder = new TextPrompt("1-", listaKenkenTxt[fila][columna]);
+                        PlaceHolders placeholder = new PlaceHolders("1-", listaKenkenTxt[fila][columna]);
                         placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 1, 4, colorPanel));             
                     }
                     if (fila == 0 && columna == 4 ) {
-                        TextPrompt placeholder = new TextPrompt("1-", listaKenkenTxt[fila][columna]);
+                        PlaceHolders placeholder = new PlaceHolders("1-", listaKenkenTxt[fila][columna]);
                         placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 1, 4, colorPanel));             
                     }
                     if (fila == 0 && columna == 5 ) {
-                        TextPrompt placeholder = new TextPrompt("3/", listaKenkenTxt[fila][columna]);
+                        PlaceHolders placeholder = new PlaceHolders("3/", listaKenkenTxt[fila][columna]);
                         placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                     }
                     if (fila == 1 && columna == 0 ) {
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 4, 4, colorPanel));             
                     }
                     if (fila == 1 && columna == 1 ) {
-                        TextPrompt placeholder = new TextPrompt("8x", listaKenkenTxt[fila][columna]);
+                        PlaceHolders placeholder = new PlaceHolders("8x", listaKenkenTxt[fila][columna]);
                         placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 1, 4, colorPanel));             
                     }
                     if (fila == 1 && columna == 2 ) {
-                        TextPrompt placeholder = new TextPrompt("3/", listaKenkenTxt[fila][columna]);
+                        PlaceHolders placeholder = new PlaceHolders("3/", listaKenkenTxt[fila][columna]);
                         placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 1, 4, colorPanel));             
                     }
@@ -995,7 +995,7 @@ public class Tablero extends JPanel{
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 4, 4, colorPanel));             
                     }
                     if (fila == 2 && columna == 3 ) {
-                        TextPrompt placeholder = new TextPrompt("120x", listaKenkenTxt[fila][columna]);
+                        PlaceHolders placeholder = new PlaceHolders("120x", listaKenkenTxt[fila][columna]);
                         placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 4, 1, colorPanel));             
                     }
@@ -1003,11 +1003,11 @@ public class Tablero extends JPanel{
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 1, 4, colorPanel));             
                     }
                     if (fila == 2 && columna == 5 ) {
-                        TextPrompt placeholder = new TextPrompt("6+", listaKenkenTxt[fila][columna]);
+                        PlaceHolders placeholder = new PlaceHolders("6+", listaKenkenTxt[fila][columna]);
                         placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                     }
                     if (fila == 3 && columna == 0 ) {
-                        TextPrompt placeholder = new TextPrompt("2-", listaKenkenTxt[fila][columna]);
+                        PlaceHolders placeholder = new PlaceHolders("2-", listaKenkenTxt[fila][columna]);
                         placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 4, 1, colorPanel));             
                     }
@@ -1015,7 +1015,7 @@ public class Tablero extends JPanel{
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 4, 4, colorPanel));             
                     }
                     if (fila == 3 && columna == 2 ) {
-                        TextPrompt placeholder = new TextPrompt("3-", listaKenkenTxt[fila][columna]);
+                        PlaceHolders placeholder = new PlaceHolders("3-", listaKenkenTxt[fila][columna]);
                         placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 4, 1, colorPanel));             
                     }
@@ -1029,12 +1029,12 @@ public class Tablero extends JPanel{
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 4, 1, colorPanel));             
                     }
                     if (fila == 4 && columna == 0 ) {
-                        TextPrompt placeholder = new TextPrompt("11+", listaKenkenTxt[fila][columna]);
+                        PlaceHolders placeholder = new PlaceHolders("11+", listaKenkenTxt[fila][columna]);
                         placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 1, 4, colorPanel));             
                     }
                     if (fila == 4 && columna == 1 ) {
-                        TextPrompt placeholder = new TextPrompt("1-", listaKenkenTxt[fila][columna]);
+                        PlaceHolders placeholder = new PlaceHolders("1-", listaKenkenTxt[fila][columna]);
                         placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 4, 1, colorPanel));             
                     }
@@ -1042,7 +1042,7 @@ public class Tablero extends JPanel{
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 4, 4, colorPanel));             
                     }
                     if (fila == 4 && columna == 3 ) {
-                        TextPrompt placeholder = new TextPrompt("5-", listaKenkenTxt[fila][columna]);
+                        PlaceHolders placeholder = new PlaceHolders("5-", listaKenkenTxt[fila][columna]);
                         placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 4, 1, colorPanel));             
                     }
@@ -1050,21 +1050,21 @@ public class Tablero extends JPanel{
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 4, 4, colorPanel));             
                     }
                     if (fila == 4 && columna == 5 ) {
-                        TextPrompt placeholder = new TextPrompt("1-", listaKenkenTxt[fila][columna]);
+                        PlaceHolders placeholder = new PlaceHolders("1-", listaKenkenTxt[fila][columna]);
                         placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                     }
                     if (fila == 5 && columna == 0 ) {
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 1, 4, colorPanel));             
                     }
                     if (fila == 5 && columna == 1 ) {
-                        TextPrompt placeholder = new TextPrompt("20x", listaKenkenTxt[fila][columna]);
+                        PlaceHolders placeholder = new PlaceHolders("20x", listaKenkenTxt[fila][columna]);
                         placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                     }
                     if (fila == 5 && columna == 2 ) {
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 1, 4, colorPanel));             
                     }
                     if (fila == 5 && columna == 3 ) {
-                        TextPrompt placeholder = new TextPrompt("2/", listaKenkenTxt[fila][columna]);
+                        PlaceHolders placeholder = new PlaceHolders("2/", listaKenkenTxt[fila][columna]);
                         placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                     }
                     if (fila == 5 && columna == 4 ) {
@@ -1078,7 +1078,7 @@ public class Tablero extends JPanel{
 
                     
                     if (fila == 0 && columna == 0 ) {
-                        TextPrompt placeholder = new TextPrompt("8x", listaKenkenTxt[fila][columna]);
+                        PlaceHolders placeholder = new PlaceHolders("8x", listaKenkenTxt[fila][columna]);
                         placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 4, 1, colorPanel));
                     }
@@ -1089,7 +1089,7 @@ public class Tablero extends JPanel{
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 4, 4, colorPanel));             
                     }
                     if (fila == 0 && columna == 3 ) {
-                        TextPrompt placeholder = new TextPrompt("2-", listaKenkenTxt[fila][columna]);
+                        PlaceHolders placeholder = new PlaceHolders("2-", listaKenkenTxt[fila][columna]);
                         placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 4, 1, colorPanel));
                     }
@@ -1097,16 +1097,16 @@ public class Tablero extends JPanel{
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 4, 4, colorPanel));             
                     }
                     if (fila == 0 && columna == 5 ) {
-                        TextPrompt placeholder = new TextPrompt("15+", listaKenkenTxt[fila][columna]);
+                        PlaceHolders placeholder = new PlaceHolders("15+", listaKenkenTxt[fila][columna]);
                         placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                     }
                     if (fila == 1 && columna == 0 ) {
-                        TextPrompt placeholder = new TextPrompt("2-", listaKenkenTxt[fila][columna]);
+                        PlaceHolders placeholder = new PlaceHolders("2-", listaKenkenTxt[fila][columna]);
                         placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 1, 4, colorPanel));
                     }
                     if (fila == 1 && columna == 1 ) {
-                        TextPrompt placeholder = new TextPrompt("5-", listaKenkenTxt[fila][columna]);
+                        PlaceHolders placeholder = new PlaceHolders("5-", listaKenkenTxt[fila][columna]);
                         placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 4, 1, colorPanel));
                     }
@@ -1114,7 +1114,7 @@ public class Tablero extends JPanel{
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 4, 4, colorPanel));             
                     }
                     if (fila == 1 && columna == 3 ) {
-                        TextPrompt placeholder = new TextPrompt("1-", listaKenkenTxt[fila][columna]);
+                        PlaceHolders placeholder = new PlaceHolders("1-", listaKenkenTxt[fila][columna]);
                         placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 4, 1, colorPanel));
                     }
@@ -1125,12 +1125,12 @@ public class Tablero extends JPanel{
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 4, 4, colorPanel));             
                     }
                     if (fila == 2 && columna == 1 ) {
-                        TextPrompt placeholder = new TextPrompt("13+", listaKenkenTxt[fila][columna]);
+                        PlaceHolders placeholder = new PlaceHolders("13+", listaKenkenTxt[fila][columna]);
                         placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 1, 4, colorPanel));
                     }
                     if (fila == 2 && columna == 2 ) {
-                        TextPrompt placeholder = new TextPrompt("3/", listaKenkenTxt[fila][columna]);
+                        PlaceHolders placeholder = new PlaceHolders("3/", listaKenkenTxt[fila][columna]);
                         placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 4, 1, colorPanel));
                     }
@@ -1138,7 +1138,7 @@ public class Tablero extends JPanel{
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 4, 4, colorPanel));             
                     }
                     if (fila == 2 && columna == 4 ) {
-                        TextPrompt placeholder = new TextPrompt("2", listaKenkenTxt[fila][columna]);
+                        PlaceHolders placeholder = new PlaceHolders("2", listaKenkenTxt[fila][columna]);
                         placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 4, 4, colorPanel));
                     }
@@ -1152,31 +1152,31 @@ public class Tablero extends JPanel{
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 4, 4, colorPanel));             
                     }
                     if (fila == 3 && columna == 2 ) {
-                        TextPrompt placeholder = new TextPrompt("10+", listaKenkenTxt[fila][columna]);
+                        PlaceHolders placeholder = new PlaceHolders("10+", listaKenkenTxt[fila][columna]);
                         placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 1, 4, colorPanel));
                     }
                     if (fila == 3 && columna == 3 ) {
-                        TextPrompt placeholder = new TextPrompt("10+", listaKenkenTxt[fila][columna]);
+                        PlaceHolders placeholder = new PlaceHolders("10+", listaKenkenTxt[fila][columna]);
                         placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 1, 4, colorPanel));
                     }
                     if (fila == 3 && columna == 4 ) {
-                        TextPrompt placeholder = new TextPrompt("7+", listaKenkenTxt[fila][columna]);
+                        PlaceHolders placeholder = new PlaceHolders("7+", listaKenkenTxt[fila][columna]);
                         placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 1, 4, colorPanel));
                     }
                     if (fila == 3 && columna == 5 ) {
-                        TextPrompt placeholder = new TextPrompt("6+", listaKenkenTxt[fila][columna]);
+                        PlaceHolders placeholder = new PlaceHolders("6+", listaKenkenTxt[fila][columna]);
                         placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                     }
                     if (fila == 4 && columna == 0 ) {
-                        TextPrompt placeholder = new TextPrompt("1-", listaKenkenTxt[fila][columna]);
+                        PlaceHolders placeholder = new PlaceHolders("1-", listaKenkenTxt[fila][columna]);
                         placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 1, 4, colorPanel));
                     }
                     if (fila == 4 && columna == 1 ) {
-                        TextPrompt placeholder = new TextPrompt("3/", listaKenkenTxt[fila][columna]);
+                        PlaceHolders placeholder = new PlaceHolders("3/", listaKenkenTxt[fila][columna]);
                         placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 1, 4, colorPanel));
                     }
@@ -1199,7 +1199,7 @@ public class Tablero extends JPanel{
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 1, 4, colorPanel));             
                     }
                     if (fila == 5 && columna == 3 ) {
-                        TextPrompt placeholder = new TextPrompt("1-", listaKenkenTxt[fila][columna]);
+                        PlaceHolders placeholder = new PlaceHolders("1-", listaKenkenTxt[fila][columna]);
                         placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                     }
                     if (fila == 5 && columna == 4 ) {
@@ -1218,19 +1218,19 @@ public class Tablero extends JPanel{
 
                     
                     if (fila == 0 && columna == 0 ) {
-                        TextPrompt placeholder = new TextPrompt("5-", listaKenkenTxt[fila][columna]);
+                        PlaceHolders placeholder = new PlaceHolders("5-", listaKenkenTxt[fila][columna]);
                         placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 1, 4, colorPanel));
                     }
                     if (fila == 0 && columna == 1 ) {
-                        TextPrompt placeholder = new TextPrompt("6+", listaKenkenTxt[fila][columna]);
+                        PlaceHolders placeholder = new PlaceHolders("6+", listaKenkenTxt[fila][columna]);
                         placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                     }
                     if (fila == 0 && columna == 2 ) {
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 4, 4, colorPanel));
                     }
                     if (fila == 0 && columna == 3 ) {
-                        TextPrompt placeholder = new TextPrompt("24x", listaKenkenTxt[fila][columna]);
+                        PlaceHolders placeholder = new PlaceHolders("24x", listaKenkenTxt[fila][columna]);
                         placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 4, 1, colorPanel));
                     }
@@ -1238,7 +1238,7 @@ public class Tablero extends JPanel{
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 1, 4, colorPanel));
                     }
                     if (fila == 0 && columna == 5 ) {
-                        TextPrompt placeholder = new TextPrompt("20x", listaKenkenTxt[fila][columna]);
+                        PlaceHolders placeholder = new PlaceHolders("20x", listaKenkenTxt[fila][columna]);
                         placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                     }
                     if (fila == 1 && columna == 0 ) {
@@ -1248,7 +1248,7 @@ public class Tablero extends JPanel{
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 4, 4, colorPanel));
                     }
                     if (fila == 1 && columna == 2 ) {
-                        TextPrompt placeholder = new TextPrompt("1-", listaKenkenTxt[fila][columna]);
+                        PlaceHolders placeholder = new PlaceHolders("1-", listaKenkenTxt[fila][columna]);
                         placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 4, 1, colorPanel));
                     }
@@ -1262,24 +1262,24 @@ public class Tablero extends JPanel{
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 4, 1, colorPanel));
                     }
                     if (fila == 2 && columna == 0 ) {
-                        TextPrompt placeholder = new TextPrompt("9+", listaKenkenTxt[fila][columna]);
+                        PlaceHolders placeholder = new PlaceHolders("9+", listaKenkenTxt[fila][columna]);
                         placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 1, 4, colorPanel));
                     }
                     if (fila == 2 && columna == 1 ) {
-                        TextPrompt placeholder = new TextPrompt("15+", listaKenkenTxt[fila][columna]);
+                        PlaceHolders placeholder = new PlaceHolders("15+", listaKenkenTxt[fila][columna]);
                         placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 1, 4, colorPanel));
                     }
                     if (fila == 2 && columna == 2 ) {
-                        TextPrompt placeholder = new TextPrompt("12+", listaKenkenTxt[fila][columna]);
+                        PlaceHolders placeholder = new PlaceHolders("12+", listaKenkenTxt[fila][columna]);
                         placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                     }
                     if (fila == 2 && columna == 3 ) {
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 1, 4, colorPanel));
                     }
                     if (fila == 2 && columna == 4 ) {
-                        TextPrompt placeholder = new TextPrompt("1-", listaKenkenTxt[fila][columna]);
+                        PlaceHolders placeholder = new PlaceHolders("1-", listaKenkenTxt[fila][columna]);
                         placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 4, 1, colorPanel));
                     }
@@ -1299,7 +1299,7 @@ public class Tablero extends JPanel{
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 4, 4, colorPanel));
                     }
                     if (fila == 3 && columna == 4 ) {
-                        TextPrompt placeholder = new TextPrompt("5-", listaKenkenTxt[fila][columna]);
+                        PlaceHolders placeholder = new PlaceHolders("5-", listaKenkenTxt[fila][columna]);
                         placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 4, 1, colorPanel));
                     }
@@ -1313,7 +1313,7 @@ public class Tablero extends JPanel{
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 4, 4, colorPanel));
                     }
                     if (fila == 4 && columna == 2 ) {
-                        TextPrompt placeholder = new TextPrompt("2-", listaKenkenTxt[fila][columna]);
+                        PlaceHolders placeholder = new PlaceHolders("2-", listaKenkenTxt[fila][columna]);
                         placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 4, 1, colorPanel));
                     }
@@ -1321,21 +1321,21 @@ public class Tablero extends JPanel{
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 4, 4, colorPanel));
                     }
                     if (fila == 4 && columna == 4 ) {
-                        TextPrompt placeholder = new TextPrompt("10+", listaKenkenTxt[fila][columna]);
+                        PlaceHolders placeholder = new PlaceHolders("10+", listaKenkenTxt[fila][columna]);
                         placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 1, 4, colorPanel));
                     }
                     if (fila == 4 && columna == 5 ) {
-                        TextPrompt placeholder = new TextPrompt("2/", listaKenkenTxt[fila][columna]);
+                        PlaceHolders placeholder = new PlaceHolders("2/", listaKenkenTxt[fila][columna]);
                         placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                     }
                     if (fila == 5 && columna == 0 ) {
-                        TextPrompt placeholder = new TextPrompt("5", listaKenkenTxt[fila][columna]);
+                        PlaceHolders placeholder = new PlaceHolders("5", listaKenkenTxt[fila][columna]);
                         placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 1, 4, colorPanel));
                     }
                     if (fila == 5 && columna == 1 ) {
-                        TextPrompt placeholder = new TextPrompt("4-", listaKenkenTxt[fila][columna]);
+                        PlaceHolders placeholder = new PlaceHolders("4-", listaKenkenTxt[fila][columna]);
                         placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                     }
                     if (fila == 5 && columna == 2 ) {
@@ -1353,14 +1353,14 @@ public class Tablero extends JPanel{
 
                     
                     if (fila == 0 && columna == 0 ) {
-                        TextPrompt placeholder = new TextPrompt("20x", listaKenkenTxt[fila][columna]);
+                        PlaceHolders placeholder = new PlaceHolders("20x", listaKenkenTxt[fila][columna]);
                         placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                     }
                     if (fila == 0 && columna == 1 ) {
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 4, 4, colorPanel));
                     }
                     if (fila == 0 && columna == 2 ) {
-                        TextPrompt placeholder = new TextPrompt("2/", listaKenkenTxt[fila][columna]);
+                        PlaceHolders placeholder = new PlaceHolders("2/", listaKenkenTxt[fila][columna]);
                         placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 4, 1, colorPanel));
                     }
@@ -1368,7 +1368,7 @@ public class Tablero extends JPanel{
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 4, 4, colorPanel));
                     }
                     if (fila == 0 && columna == 4 ) {
-                        TextPrompt placeholder = new TextPrompt("9+", listaKenkenTxt[fila][columna]);
+                        PlaceHolders placeholder = new PlaceHolders("9+", listaKenkenTxt[fila][columna]);
                         placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                     }
                     if (fila == 0 && columna == 5 ) {
@@ -1378,7 +1378,7 @@ public class Tablero extends JPanel{
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 4, 4, colorPanel));
                     }
                     if (fila == 1 && columna == 1 ) {
-                        TextPrompt placeholder = new TextPrompt("12x", listaKenkenTxt[fila][columna]);
+                        PlaceHolders placeholder = new PlaceHolders("12x", listaKenkenTxt[fila][columna]);
                         placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 4, 1, colorPanel));
                     }
@@ -1392,11 +1392,11 @@ public class Tablero extends JPanel{
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 4, 4, colorPanel));
                     }
                     if (fila == 1 && columna == 5 ) {
-                        TextPrompt placeholder = new TextPrompt("13+", listaKenkenTxt[fila][columna]);
+                        PlaceHolders placeholder = new PlaceHolders("13+", listaKenkenTxt[fila][columna]);
                         placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                     }
                     if (fila == 2 && columna == 0 ) {
-                        TextPrompt placeholder = new TextPrompt("2-", listaKenkenTxt[fila][columna]);
+                        PlaceHolders placeholder = new PlaceHolders("2-", listaKenkenTxt[fila][columna]);
                         placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 4, 1, colorPanel));
                     }
@@ -1404,19 +1404,19 @@ public class Tablero extends JPanel{
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 4, 4, colorPanel));
                     }
                     if (fila == 2 && columna == 2 ) {
-                        TextPrompt placeholder = new TextPrompt("11+", listaKenkenTxt[fila][columna]);
+                        PlaceHolders placeholder = new PlaceHolders("11+", listaKenkenTxt[fila][columna]);
                         placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                     }
                     if (fila == 2 && columna == 3 ) {
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 4, 4, colorPanel));
                     }
                     if (fila == 2 && columna == 4 ) {
-                        TextPrompt placeholder = new TextPrompt("6+", listaKenkenTxt[fila][columna]);
+                        PlaceHolders placeholder = new PlaceHolders("6+", listaKenkenTxt[fila][columna]);
                         placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 1, 4, colorPanel));
                     }
                     if (fila == 3 && columna == 0 ) {
-                        TextPrompt placeholder = new TextPrompt("36x", listaKenkenTxt[fila][columna]);
+                        PlaceHolders placeholder = new PlaceHolders("36x", listaKenkenTxt[fila][columna]);
                         placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 4, 1, colorPanel));
                     }
@@ -1436,7 +1436,7 @@ public class Tablero extends JPanel{
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 4, 1, colorPanel));
                     }
                     if (fila == 4 && columna == 0 ) {
-                        TextPrompt placeholder = new TextPrompt("1", listaKenkenTxt[fila][columna]);
+                        PlaceHolders placeholder = new PlaceHolders("1", listaKenkenTxt[fila][columna]);
                         placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 4, 4, colorPanel));
                     }
@@ -1444,19 +1444,19 @@ public class Tablero extends JPanel{
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 4, 4, colorPanel));
                     }
                     if (fila == 4 && columna == 2 ) {
-                        TextPrompt placeholder = new TextPrompt("13+", listaKenkenTxt[fila][columna]);
+                        PlaceHolders placeholder = new PlaceHolders("13+", listaKenkenTxt[fila][columna]);
                         placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                     }
                     if (fila == 4 && columna == 3 ) {
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 4, 4, colorPanel));
                     }
                     if (fila == 4 && columna == 4 ) {
-                        TextPrompt placeholder = new TextPrompt("15x", listaKenkenTxt[fila][columna]);
+                        PlaceHolders placeholder = new PlaceHolders("15x", listaKenkenTxt[fila][columna]);
                         placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 4, 1, colorPanel));
                     }
                     if (fila == 5 && columna == 0 ) {
-                        TextPrompt placeholder = new TextPrompt("2/", listaKenkenTxt[fila][columna]);
+                        PlaceHolders placeholder = new PlaceHolders("2/", listaKenkenTxt[fila][columna]);
                         placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                     }
                     if (fila == 5 && columna == 1 ) {
@@ -1466,7 +1466,7 @@ public class Tablero extends JPanel{
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 1, 4, colorPanel));
                     }
                     if (fila == 5 && columna == 3 ) {
-                        TextPrompt placeholder = new TextPrompt("1-", listaKenkenTxt[fila][columna]);
+                        PlaceHolders placeholder = new PlaceHolders("1-", listaKenkenTxt[fila][columna]);
                         placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                     }
                     if (fila == 5 && columna == 4 ) {
@@ -1481,17 +1481,17 @@ public class Tablero extends JPanel{
 
                     
                     if (fila == 0 && columna == 0 ) {
-                        TextPrompt placeholder = new TextPrompt("2/", listaKenkenTxt[fila][columna]);
+                        PlaceHolders placeholder = new PlaceHolders("2/", listaKenkenTxt[fila][columna]);
                         placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 1, 4, colorPanel));
                     }
                     if (fila == 0 && columna == 1 ) {
-                        TextPrompt placeholder = new TextPrompt("4", listaKenkenTxt[fila][columna]);
+                        PlaceHolders placeholder = new PlaceHolders("4", listaKenkenTxt[fila][columna]);
                         placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 4, 4, colorPanel));
                     }
                     if (fila == 0 && columna == 2 ) {
-                        TextPrompt placeholder = new TextPrompt("15x", listaKenkenTxt[fila][columna]);
+                        PlaceHolders placeholder = new PlaceHolders("15x", listaKenkenTxt[fila][columna]);
                         placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 4, 1, colorPanel));
                     }
@@ -1502,14 +1502,14 @@ public class Tablero extends JPanel{
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 4, 4, colorPanel));
                     }
                     if (fila == 0 && columna == 5 ) {
-                        TextPrompt placeholder = new TextPrompt("11+", listaKenkenTxt[fila][columna]);
+                        PlaceHolders placeholder = new PlaceHolders("11+", listaKenkenTxt[fila][columna]);
                         placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                     }
                     if (fila == 1 && columna == 0 ) {
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 4, 4, colorPanel));
                     }
                     if (fila == 1 && columna == 1 ) {
-                        TextPrompt placeholder = new TextPrompt("15+", listaKenkenTxt[fila][columna]);
+                        PlaceHolders placeholder = new PlaceHolders("15+", listaKenkenTxt[fila][columna]);
                         placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 4, 1, colorPanel));
                     }
@@ -1526,12 +1526,12 @@ public class Tablero extends JPanel{
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 4, 1, colorPanel));
                     }
                     if (fila == 2 && columna == 0 ) {
-                        TextPrompt placeholder = new TextPrompt("90x", listaKenkenTxt[fila][columna]);
+                        PlaceHolders placeholder = new PlaceHolders("90x", listaKenkenTxt[fila][columna]);
                         placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 1, 4, colorPanel));
                     }
                     if (fila == 2 && columna == 1 ) {
-                        TextPrompt placeholder = new TextPrompt("2/", listaKenkenTxt[fila][columna]);
+                        PlaceHolders placeholder = new PlaceHolders("2/", listaKenkenTxt[fila][columna]);
                         placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 4, 1, colorPanel));
                     }
@@ -1539,21 +1539,21 @@ public class Tablero extends JPanel{
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 4, 4, colorPanel));
                     }
                     if (fila == 2 && columna == 3 ) {
-                        TextPrompt placeholder = new TextPrompt("9+", listaKenkenTxt[fila][columna]);
+                        PlaceHolders placeholder = new PlaceHolders("9+", listaKenkenTxt[fila][columna]);
                         placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                     }
                     if (fila == 2 && columna == 4 ) {
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 4, 4, colorPanel));
                     }
                     if (fila == 2 && columna == 5 ) {
-                        TextPrompt placeholder = new TextPrompt("48x", listaKenkenTxt[fila][columna]);
+                        PlaceHolders placeholder = new PlaceHolders("48x", listaKenkenTxt[fila][columna]);
                         placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                     }
                     if (fila == 3 && columna == 0 ) {
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 1, 4, colorPanel));
                     }
                     if (fila == 3 && columna == 1 ) {
-                        TextPrompt placeholder = new TextPrompt("13+", listaKenkenTxt[fila][columna]);
+                        PlaceHolders placeholder = new PlaceHolders("13+", listaKenkenTxt[fila][columna]);
                         placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                     }
                     if (fila == 3 && columna == 2 ) {
@@ -1575,26 +1575,26 @@ public class Tablero extends JPanel{
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 4, 4, colorPanel));
                     }
                     if (fila == 4 && columna == 2 ) {
-                        TextPrompt placeholder = new TextPrompt("5", listaKenkenTxt[fila][columna]);
+                        PlaceHolders placeholder = new PlaceHolders("5", listaKenkenTxt[fila][columna]);
                         placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 4, 4, colorPanel));
                     }
                     if (fila == 4 && columna == 3 ) {
-                        TextPrompt placeholder = new TextPrompt("9+", listaKenkenTxt[fila][columna]);
+                        PlaceHolders placeholder = new PlaceHolders("9+", listaKenkenTxt[fila][columna]);
                         placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 1, 4, colorPanel));
                     }
                     if (fila == 4 && columna == 4 ) {
-                        TextPrompt placeholder = new TextPrompt("1-", listaKenkenTxt[fila][columna]);
+                        PlaceHolders placeholder = new PlaceHolders("1-", listaKenkenTxt[fila][columna]);
                         placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                         listaKenkenTxt[fila][columna].setBorder(BorderFactory.createMatteBorder(1, 1, 1, 4, colorPanel));
                     }
                     if (fila == 4 && columna == 5 ) {
-                        TextPrompt placeholder = new TextPrompt("4-", listaKenkenTxt[fila][columna]);
+                        PlaceHolders placeholder = new PlaceHolders("4-", listaKenkenTxt[fila][columna]);
                         placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                     }
                     if (fila == 5 && columna == 0 ) {
-                        TextPrompt placeholder = new TextPrompt("2-", listaKenkenTxt[fila][columna]);
+                        PlaceHolders placeholder = new PlaceHolders("2-", listaKenkenTxt[fila][columna]);
                         placeholder.setFont(new Font("Arial", Font.BOLD, 9));
                     }
                     if (fila == 5 && columna == 1 ) {

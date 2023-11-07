@@ -11,10 +11,10 @@ import javax.swing.text.*;
 
 
 /**
- * Clase llamda TextPrompt que muestra un mensaje sobre un JTextField
+ * Clase llamda PlaceHolders que muestra un mensaje sobre un JTextField
  * @author Luis Arrieta Víquez
  */
-public class TextPrompt extends JLabel
+public class PlaceHolders extends JLabel
 	implements FocusListener, DocumentListener
 {
     
@@ -39,7 +39,7 @@ public class TextPrompt extends JLabel
          * @param text valor ingresado para mostrarlo en el JTextField
          * @param component recibe una posicion especifica donde hay un JTextField
          */ 
-	public TextPrompt(String text, JTextComponent component)
+	public PlaceHolders(String text, JTextComponent component)
 	{
 		this(text, component, Show.ALWAYS);
 	}
@@ -52,7 +52,7 @@ public class TextPrompt extends JLabel
          * @param campo recibe una posicion especifica donde hay un JTextFiekd
          * @param mostrar valor utilizado para mostrar el "texto"
          */
-	public TextPrompt(String texto, JTextComponent campo, Show mostrar)
+	public PlaceHolders(String texto, JTextComponent campo, Show mostrar)
 	{
 		this.component = campo;
 		setShow( mostrar );
