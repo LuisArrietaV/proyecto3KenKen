@@ -43,6 +43,7 @@ public class interfazKenKen extends javax.swing.JFrame {
      */
     public interfazKenKen() {
         initComponents();
+        this.setTitle("KenKen");
         cargarComponentes();
         setLocationRelativeTo(null);
         botonIniciar.setEnabled(true);
@@ -691,7 +692,7 @@ public class interfazKenKen extends javax.swing.JFrame {
      * @param evt 
      */
     private void botonOtroJuegoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botonOtroJuegoActionPerformed
-        int otro = JOptionPane.showConfirmDialog(this, "¿ESTÁ SEGURO DE TERMINAR ESTE JUEGO Y EMPEZAR CON OTRO (SI/NO)?", "Terminar juego", JOptionPane.YES_NO_OPTION);
+        int otro = JOptionPane.showConfirmDialog(this, "¿ESTÁ SEGURO DE TERMINAR ESTE JUEGO Y EMPEZAR CON OTRO (SI/NO)?", "Otro juego", JOptionPane.YES_NO_OPTION);
         if (otro == JOptionPane.YES_OPTION) {
             tableroKenKen.limpiarTablero();
             Numeros.movimientos.pila = null;

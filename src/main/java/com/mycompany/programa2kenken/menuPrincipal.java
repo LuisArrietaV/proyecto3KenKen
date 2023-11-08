@@ -1,6 +1,11 @@
 
 package com.mycompany.programa2kenken;
 
+import java.awt.Desktop;
+import java.io.File;
+import java.io.IOException;
+import javax.swing.JOptionPane;
+
 /**
  * JFrame Form llamado menuPrincipal utilizado para poder jugar una partida del kenken, cambiar su configuración, ver 
  * información acerca del programa, y salir del programa
@@ -17,6 +22,7 @@ public class menuPrincipal extends javax.swing.JFrame {
      */
     public menuPrincipal() {
         initComponents();
+        this.setTitle("Menú principal");
         setLocationRelativeTo(null);
         setVisible(true);
         
@@ -33,6 +39,7 @@ public class menuPrincipal extends javax.swing.JFrame {
         botonConfigurar = new javax.swing.JButton();
         jButton1 = new javax.swing.JButton();
         botonSalir = new javax.swing.JButton();
+        botonAyuda = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -69,7 +76,7 @@ public class menuPrincipal extends javax.swing.JFrame {
             }
         });
         jPanel1.add(botonConfigurar);
-        botonConfigurar.setBounds(180, 190, 150, 30);
+        botonConfigurar.setBounds(180, 180, 150, 30);
 
         jButton1.setBackground(new java.awt.Color(0, 255, 255));
         jButton1.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
@@ -80,7 +87,7 @@ public class menuPrincipal extends javax.swing.JFrame {
             }
         });
         jPanel1.add(jButton1);
-        jButton1.setBounds(180, 260, 150, 30);
+        jButton1.setBounds(180, 290, 150, 30);
 
         botonSalir.setBackground(new java.awt.Color(255, 0, 0));
         botonSalir.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
@@ -93,6 +100,17 @@ public class menuPrincipal extends javax.swing.JFrame {
         });
         jPanel1.add(botonSalir);
         botonSalir.setBounds(180, 350, 150, 30);
+
+        botonAyuda.setBackground(new java.awt.Color(255, 102, 204));
+        botonAyuda.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        botonAyuda.setText("Ayuda");
+        botonAyuda.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                botonAyudaActionPerformed(evt);
+            }
+        });
+        jPanel1.add(botonAyuda);
+        botonAyuda.setBounds(180, 240, 150, 30);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -157,6 +175,19 @@ public class menuPrincipal extends javax.swing.JFrame {
     }//GEN-LAST:event_botonSalirActionPerformed
 
     /**
+     * Boton para mostrar el manual de usuario
+     * @param evt 
+     */
+    private void botonAyudaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botonAyudaActionPerformed
+        try {
+            File archivo = new File ("C:\\Users\\Marce\\Documents\\NetBeansProjects\\Programa2Kenken\\Manual de usuario proyecto 2 KenKen (Luis Andrés Arrieta Víquez).pdf");
+            Desktop.getDesktop().open(archivo);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }//GEN-LAST:event_botonAyudaActionPerformed
+
+    /**
      * @param args the command line arguments
      */
     public static void main(String args[]) {
@@ -192,6 +223,7 @@ public class menuPrincipal extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton botonAyuda;
     private javax.swing.JButton botonConfigurar;
     private javax.swing.JButton botonJugar;
     private javax.swing.JButton botonSalir;

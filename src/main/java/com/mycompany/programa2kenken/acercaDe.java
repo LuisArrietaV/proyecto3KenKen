@@ -11,6 +11,7 @@ public class acercaDe extends javax.swing.JFrame {
     
     public acercaDe() {
         initComponents();
+        this.setTitle("Acerca De");
         setLocationRelativeTo(null);
     }
 

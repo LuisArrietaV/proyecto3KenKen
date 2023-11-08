@@ -28,6 +28,7 @@ public class Configuraciones extends javax.swing.JFrame {
      */
     public Configuraciones() {
         initComponents();
+        this.setTitle("Configuraciones");
         setLocationRelativeTo(null);
         if(dificultadFacil == true) {
             botonFacil1.setBorderPainted(true);
