@@ -1,5 +1,5 @@
 
-package com.mycompany.programa2kenken;
+package com.mycompany.programa3kenken;
 
 /**
  * 
@@ -20,6 +20,14 @@ public class Configuraciones extends javax.swing.JFrame {
     public static boolean panelDerecha = true;
     public static boolean panelIzquierda = false;
     public static boolean escucharSonido = true;
+    public static boolean cuadricula3x3 = false;
+    public static boolean cuadricula4x4 = false;
+    public static boolean cuadricula5x5 = false;
+    public static boolean cuadricula6x6 = true;
+    public static boolean cuadricula7x7 = false;
+    public static boolean cuadricula8x8 = false;
+    public static boolean cuadricula9x9 = false;
+    
 
     
     
@@ -76,6 +84,69 @@ public class Configuraciones extends javax.swing.JFrame {
             botonSiEscuchar.setBorderPainted(false);
             botonNoEscuchar.setBorderPainted(true);
         }
+        if (cuadricula3x3 == true) {
+            boton3x3.setBorderPainted(true);
+            boton4x4.setBorderPainted(false);
+            boton5x5.setBorderPainted(false);
+            boton6x6.setBorderPainted(false);
+            boton7x7.setBorderPainted(false);
+            boton8x8.setBorderPainted(false);
+            boton9x9.setBorderPainted(false);
+        }
+        if (cuadricula4x4 == true) {
+            boton3x3.setBorderPainted(false);
+            boton4x4.setBorderPainted(true);
+            boton5x5.setBorderPainted(false);
+            boton6x6.setBorderPainted(false);
+            boton7x7.setBorderPainted(false);
+            boton8x8.setBorderPainted(false);
+            boton9x9.setBorderPainted(false);
+        }
+        if (cuadricula5x5 == true) {
+            boton3x3.setBorderPainted(false);
+            boton4x4.setBorderPainted(false);
+            boton5x5.setBorderPainted(true);
+            boton6x6.setBorderPainted(false);
+            boton7x7.setBorderPainted(false);
+            boton8x8.setBorderPainted(false);
+            boton9x9.setBorderPainted(false);
+        }
+        if (cuadricula6x6 == true) {
+            boton3x3.setBorderPainted(false);
+            boton4x4.setBorderPainted(false);
+            boton5x5.setBorderPainted(false);
+            boton6x6.setBorderPainted(true);
+            boton7x7.setBorderPainted(false);
+            boton8x8.setBorderPainted(false);
+            boton9x9.setBorderPainted(false);
+        }
+        if (cuadricula7x7 == true) {
+            boton3x3.setBorderPainted(false);
+            boton4x4.setBorderPainted(false);
+            boton5x5.setBorderPainted(false);
+            boton6x6.setBorderPainted(false);
+            boton7x7.setBorderPainted(true);
+            boton8x8.setBorderPainted(false);
+            boton9x9.setBorderPainted(false);
+        }
+        if (cuadricula8x8 == true) {
+            boton3x3.setBorderPainted(false);
+            boton4x4.setBorderPainted(false);
+            boton5x5.setBorderPainted(false);
+            boton6x6.setBorderPainted(false);
+            boton7x7.setBorderPainted(false);
+            boton8x8.setBorderPainted(true);
+            boton9x9.setBorderPainted(false);
+        }
+        if (cuadricula9x9 == true) {
+            boton3x3.setBorderPainted(false);
+            boton4x4.setBorderPainted(false);
+            boton5x5.setBorderPainted(false);
+            boton6x6.setBorderPainted(false);
+            boton7x7.setBorderPainted(false);
+            boton8x8.setBorderPainted(false);
+            boton9x9.setBorderPainted(true);
+        }
         //this.tableroKenken = tableroKenken;
     }
 
@@ -102,6 +173,14 @@ public class Configuraciones extends javax.swing.JFrame {
         jLabel4 = new javax.swing.JLabel();
         botonSiEscuchar = new javax.swing.JButton();
         botonNoEscuchar = new javax.swing.JButton();
+        jLabel5 = new javax.swing.JLabel();
+        boton3x3 = new javax.swing.JButton();
+        boton6x6 = new javax.swing.JButton();
+        boton4x4 = new javax.swing.JButton();
+        boton5x5 = new javax.swing.JButton();
+        boton7x7 = new javax.swing.JButton();
+        boton8x8 = new javax.swing.JButton();
+        boton9x9 = new javax.swing.JButton();
 
         jRadioButton1.setText("jRadioButton1");
 
@@ -169,7 +248,7 @@ public class Configuraciones extends javax.swing.JFrame {
             }
         });
         jPanel1.add(botonRegresar);
-        botonRegresar.setBounds(20, 460, 110, 30);
+        botonRegresar.setBounds(20, 570, 110, 30);
 
         jLabel2.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
         jLabel2.setText("2. Reloj:");
@@ -270,17 +349,104 @@ public class Configuraciones extends javax.swing.JFrame {
         jPanel1.add(botonNoEscuchar);
         botonNoEscuchar.setBounds(340, 390, 110, 18);
 
+        jLabel5.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        jLabel5.setText("5. Tamaño de la cuadrícula: ");
+        jPanel1.add(jLabel5);
+        jLabel5.setBounds(30, 440, 220, 17);
+
+        boton3x3.setFont(new java.awt.Font("Arial", 1, 12)); // NOI18N
+        boton3x3.setText("3 x 3");
+        boton3x3.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 0, 0), 2));
+        boton3x3.setBorderPainted(false);
+        boton3x3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                boton3x3ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(boton3x3);
+        boton3x3.setBounds(180, 480, 70, 20);
+
+        boton6x6.setFont(new java.awt.Font("Arial", 1, 12)); // NOI18N
+        boton6x6.setText("6 x 6");
+        boton6x6.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 0, 0), 2));
+        boton6x6.setBorderPainted(false);
+        boton6x6.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                boton6x6ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(boton6x6);
+        boton6x6.setBounds(450, 480, 70, 20);
+
+        boton4x4.setFont(new java.awt.Font("Arial", 1, 12)); // NOI18N
+        boton4x4.setText("4 x 4");
+        boton4x4.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 0, 0), 2));
+        boton4x4.setBorderPainted(false);
+        boton4x4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                boton4x4ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(boton4x4);
+        boton4x4.setBounds(270, 480, 70, 20);
+
+        boton5x5.setFont(new java.awt.Font("Arial", 1, 12)); // NOI18N
+        boton5x5.setText("5 x 5");
+        boton5x5.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 0, 0), 2));
+        boton5x5.setBorderPainted(false);
+        boton5x5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                boton5x5ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(boton5x5);
+        boton5x5.setBounds(360, 480, 70, 20);
+
+        boton7x7.setFont(new java.awt.Font("Arial", 1, 12)); // NOI18N
+        boton7x7.setText("7 x 7");
+        boton7x7.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 0, 0), 2));
+        boton7x7.setBorderPainted(false);
+        boton7x7.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                boton7x7ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(boton7x7);
+        boton7x7.setBounds(210, 520, 70, 20);
+
+        boton8x8.setFont(new java.awt.Font("Arial", 1, 12)); // NOI18N
+        boton8x8.setText("8 x 8");
+        boton8x8.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 0, 0), 2));
+        boton8x8.setBorderPainted(false);
+        boton8x8.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                boton8x8ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(boton8x8);
+        boton8x8.setBounds(310, 520, 70, 20);
+
+        boton9x9.setFont(new java.awt.Font("Arial", 1, 12)); // NOI18N
+        boton9x9.setText("9 x 9");
+        boton9x9.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 0, 0), 2));
+        boton9x9.setBorderPainted(false);
+        boton9x9.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                boton9x9ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(boton9x9);
+        boton9x9.setBounds(410, 520, 70, 20);
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, 621, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 0, Short.MAX_VALUE))
+            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 645, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 516, Short.MAX_VALUE)
+            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 612, Short.MAX_VALUE)
         );
 
         pack();
@@ -427,9 +593,177 @@ public class Configuraciones extends javax.swing.JFrame {
         botonNoEscuchar.setBorderPainted(true);
     }//GEN-LAST:event_botonNoEscucharActionPerformed
 
+    
+    /**
+     * Boton que al presionarlo, indica que se va a utilizar y jugar con 
+     * la cuadricula 3x3 del Kenken
+     * @param evt 
+     */
+    private void boton3x3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_boton3x3ActionPerformed
+        cuadricula3x3 = true;
+        cuadricula4x4 = false;
+        cuadricula5x5 = false;
+        cuadricula6x6 = false;
+        cuadricula7x7 = false;
+        cuadricula8x8 = false;
+        cuadricula9x9 = false;
+        boton3x3.setBorderPainted(true);
+        boton4x4.setBorderPainted(false);
+        boton5x5.setBorderPainted(false);
+        boton6x6.setBorderPainted(false);
+        boton7x7.setBorderPainted(false);
+        boton8x8.setBorderPainted(false);
+        boton9x9.setBorderPainted(false);
+    }//GEN-LAST:event_boton3x3ActionPerformed
+
+    
+    /**
+     * Boton que al presionarlo, indica que se va a utilizar y jugar con 
+     * la cuadricula 6x6 del Kenken
+     * @param evt 
+     */
+    private void boton6x6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_boton6x6ActionPerformed
+        cuadricula3x3 = false;
+        cuadricula4x4 = false;
+        cuadricula5x5 = false;
+        cuadricula6x6 = true;
+        cuadricula7x7 = false;
+        cuadricula8x8 = false;
+        cuadricula9x9 = false;
+        boton3x3.setBorderPainted(false);
+        boton4x4.setBorderPainted(false);
+        boton5x5.setBorderPainted(false);
+        boton6x6.setBorderPainted(true);
+        boton7x7.setBorderPainted(false);
+        boton8x8.setBorderPainted(false);
+        boton9x9.setBorderPainted(false);
+    }//GEN-LAST:event_boton6x6ActionPerformed
+
+    
+    /**
+     * Boton que al presionarlo, indica que se va a utilizar y jugar con 
+     * la cuadricula 4x4 del Kenken
+     * @param evt 
+     */
+    private void boton4x4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_boton4x4ActionPerformed
+        cuadricula3x3 = false;
+        cuadricula4x4 = true;
+        cuadricula5x5 = false;
+        cuadricula6x6 = false;
+        cuadricula7x7 = false;
+        cuadricula8x8 = false;
+        cuadricula9x9 = false;
+        boton3x3.setBorderPainted(false);
+        boton4x4.setBorderPainted(true);
+        boton5x5.setBorderPainted(false);
+        boton6x6.setBorderPainted(false);
+        boton7x7.setBorderPainted(false);
+        boton8x8.setBorderPainted(false);
+        boton9x9.setBorderPainted(false);
+    }//GEN-LAST:event_boton4x4ActionPerformed
+
+    
+    /**
+     * Boton que al presionarlo, indica que se va a utilizar y jugar con 
+     * la cuadricula 5x5 del Kenken
+     * @param evt 
+     */
+    private void boton5x5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_boton5x5ActionPerformed
+        cuadricula3x3 = false;
+        cuadricula4x4 = false;
+        cuadricula5x5 = true;
+        cuadricula6x6 = false;
+        cuadricula7x7 = false;
+        cuadricula8x8 = false;
+        cuadricula9x9 = false;
+        boton3x3.setBorderPainted(false);
+        boton4x4.setBorderPainted(false);
+        boton5x5.setBorderPainted(true);
+        boton6x6.setBorderPainted(false);
+        boton7x7.setBorderPainted(false);
+        boton8x8.setBorderPainted(false);
+        boton9x9.setBorderPainted(false);
+    }//GEN-LAST:event_boton5x5ActionPerformed
+
+    
+    /**
+     * Boton que al presionarlo, indica que se va a utilizar y jugar con 
+     * la cuadricula 7x7 del Kenken
+     * @param evt 
+     */
+    private void boton7x7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_boton7x7ActionPerformed
+        cuadricula3x3 = false;
+        cuadricula4x4 = false;
+        cuadricula5x5 = false;
+        cuadricula6x6 = false;
+        cuadricula7x7 = true;
+        cuadricula8x8 = false;
+        cuadricula9x9 = false;
+        boton3x3.setBorderPainted(false);
+        boton4x4.setBorderPainted(false);
+        boton5x5.setBorderPainted(false);
+        boton6x6.setBorderPainted(false);
+        boton7x7.setBorderPainted(true);
+        boton8x8.setBorderPainted(false);
+        boton9x9.setBorderPainted(false);
+    }//GEN-LAST:event_boton7x7ActionPerformed
+
+    
+    /**
+     * Boton que al presionarlo, indica que se va a utilizar y jugar con 
+     * la cuadricula 8x8 del Kenken
+     * @param evt 
+     */
+    private void boton8x8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_boton8x8ActionPerformed
+        cuadricula3x3 = false;
+        cuadricula4x4 = false;
+        cuadricula5x5 = false;
+        cuadricula6x6 = false;
+        cuadricula7x7 = false;
+        cuadricula8x8 = true;
+        cuadricula9x9 = false;
+        boton3x3.setBorderPainted(false);
+        boton4x4.setBorderPainted(false);
+        boton5x5.setBorderPainted(false);
+        boton6x6.setBorderPainted(false);
+        boton7x7.setBorderPainted(false);
+        boton8x8.setBorderPainted(true);
+        boton9x9.setBorderPainted(false);
+    }//GEN-LAST:event_boton8x8ActionPerformed
+
+    
+    /**
+     * Boton que al presionarlo, indica que se va a utilizar y jugar con 
+     * la cuadricula 9x9 del Kenken
+     * @param evt 
+     */
+    private void boton9x9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_boton9x9ActionPerformed
+        cuadricula3x3 = false;
+        cuadricula4x4 = false;
+        cuadricula5x5 = false;
+        cuadricula6x6 = false;
+        cuadricula7x7 = false;
+        cuadricula8x8 = false;
+        cuadricula9x9 = true;
+        boton3x3.setBorderPainted(false);
+        boton4x4.setBorderPainted(false);
+        boton5x5.setBorderPainted(false);
+        boton6x6.setBorderPainted(false);
+        boton7x7.setBorderPainted(false);
+        boton8x8.setBorderPainted(false);
+        boton9x9.setBorderPainted(true);
+    }//GEN-LAST:event_boton9x9ActionPerformed
+
    
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton boton3x3;
+    private javax.swing.JButton boton4x4;
+    private javax.swing.JButton boton5x5;
+    private javax.swing.JButton boton6x6;
+    private javax.swing.JButton boton7x7;
+    private javax.swing.JButton boton8x8;
+    private javax.swing.JButton boton9x9;
     private javax.swing.JButton botonCronometro;
     private javax.swing.JButton botonDerecha;
     private javax.swing.JButton botonDificil;
@@ -445,6 +779,7 @@ public class Configuraciones extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel5;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JRadioButton jRadioButton1;
     private javax.swing.JLabel labelConfiguracion;

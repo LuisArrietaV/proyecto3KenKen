@@ -1,5 +1,5 @@
 
-package com.mycompany.programa2kenken;
+package com.mycompany.programa3kenken;
 
 import java.awt.*;
 import java.awt.event.*;

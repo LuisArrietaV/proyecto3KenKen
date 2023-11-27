@@ -1,5 +1,5 @@
 
-package com.mycompany.programa2kenken;
+package com.mycompany.programa3kenken;
 
 /**
  * JFrame Form llamado acercaDe, utilizado para mostrar información acerca del
@@ -63,13 +63,13 @@ public class acercaDe extends javax.swing.JFrame {
         jLabel6.setText("Programa 2 Kenken");
 
         jLabel7.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
-        jLabel7.setText("1.0");
+        jLabel7.setText("2.0");
 
         jLabel8.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
         jLabel8.setText("Luis Andrés Arrieta Víquez");
 
         jLabel9.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
-        jLabel9.setText("27/10/2023");
+        jLabel9.setText("26/11/2023");
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);

@@ -1,5 +1,5 @@
 
-package com.mycompany.programa2kenken;
+package com.mycompany.programa3kenken;
 
 import java.io.File;
 import java.io.IOException;
@@ -15,7 +15,7 @@ import org.xml.sax.SAXException;
 
 /**
  * Clase llamada archivoXML utilizada para cargar y mostrar información
- * acerca del archivo xml llamado kenken_partidas
+ * acerca del archivo xml llamado kenken_partidas2023
  * @author Luis Arrieta Vïquez
  */
 public class archivoXML {
@@ -26,7 +26,7 @@ public class archivoXML {
      */
     public void LeerDocumento() {
         try {
-            File archivoXML = new File("C:\\Users\\Marce\\Documents\\NetBeansProjects\\Programa2Kenken\\kenken_partidas.xml");
+            File archivoXML = new File("C:\\Users\\Marce\\Desktop\\Programa3Kenken\\kenken_partidas2023.xml");
             DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
             DocumentBuilder builder = factory.newDocumentBuilder();
             Document documento = builder.parse(archivoXML);
@@ -49,6 +49,7 @@ public class archivoXML {
                 if (partida.getNodeType() == Node.ELEMENT_NODE) {
                     Element elemento = (Element) partida;
                     
+                    System.out.println("Tipo de cuadricula: " + elemento.getElementsByTagName("cuadricula").item(0).getTextContent());
                     System.out.println("Nivel de dificultad: " + elemento.getElementsByTagName("nivel_de_dificultad").item(0).getTextContent());
                     System.out.println("Jaula: " + elemento.getElementsByTagName("jaula").item(0).getTextContent());
                     System.out.println("Jaula: " + elemento.getElementsByTagName("jaula").item(1).getTextContent());

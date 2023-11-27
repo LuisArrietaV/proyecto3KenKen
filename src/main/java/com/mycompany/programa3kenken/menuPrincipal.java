@@ -1,5 +1,5 @@
 
-package com.mycompany.programa2kenken;
+package com.mycompany.programa3kenken;
 
 import java.awt.Desktop;
 import java.io.File;
@@ -47,7 +47,7 @@ public class menuPrincipal extends javax.swing.JFrame {
         jPanel1.setLayout(null);
 
         jLabel1.setFont(new java.awt.Font("Arial", 1, 24)); // NOI18N
-        jLabel1.setText("Programa 2 KenKen");
+        jLabel1.setText("Programa 3 KenKen");
         jPanel1.add(jLabel1);
         jLabel1.setBounds(140, 30, 250, 28);
 
@@ -180,7 +180,7 @@ public class menuPrincipal extends javax.swing.JFrame {
      */
     private void botonAyudaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botonAyudaActionPerformed
         try {
-            File archivo = new File ("C:\\Users\\Marce\\Documents\\NetBeansProjects\\Programa2Kenken\\Manual de usuario proyecto 2 KenKen (Luis Andrés Arrieta Víquez).pdf");
+            File archivo = new File ("C:\\Users\\Marce\\Desktop\\Programa3Kenken\\Manual de usuario proyecto 3 KenKen (Luis Andrés Arrieta Víquez).pdf");
             Desktop.getDesktop().open(archivo);
         } catch (IOException e) {
             e.printStackTrace();

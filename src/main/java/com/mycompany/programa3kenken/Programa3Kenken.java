@@ -1,4 +1,4 @@
-package com.mycompany.programa2kenken;
+package com.mycompany.programa3kenken;
 
 /**
  * 
@@ -8,7 +8,7 @@ package com.mycompany.programa2kenken;
  * 
  */
 
-public class Programa2Kenken {
+public class Programa3Kenken {
 
     /**
      *  Es la funcion main del programa

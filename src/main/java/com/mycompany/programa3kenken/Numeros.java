@@ -1,5 +1,5 @@
 
-package com.mycompany.programa2kenken;
+package com.mycompany.programa3kenken;
 
 import java.awt.Color;
 import java.awt.Cursor;
@@ -136,20 +136,61 @@ public class Numeros extends JPanel{
      */
     public void crearPanelNumeros() {
         this.setLayout(null);
-        this.setSize(ancho+(2*margen), altura*6+(2*margen));
+        if (Configuraciones.cuadricula3x3 == true) {
+            this.setSize(ancho+(2*margen), altura*3+(2*margen));
+        }
+        if (Configuraciones.cuadricula4x4 == true) {
+            this.setSize(ancho+(2*margen), altura*4+(2*margen));
+        }
+        if (Configuraciones.cuadricula5x5 == true) {
+            this.setSize(ancho+(2*margen), altura*5+(2*margen));
+        }
+        if (Configuraciones.cuadricula6x6 == true) {
+            this.setSize(ancho+(2*margen), altura*6+(2*margen));
+        }
+        if (Configuraciones.cuadricula7x7 == true) {
+            this.setSize(ancho+(2*margen), altura*7+(2*margen));
+        }
+        if (Configuraciones.cuadricula8x8 == true) {
+            this.setSize(ancho+(2*margen), altura*8+(2*margen));
+        }
+        if (Configuraciones.cuadricula9x9 == true) {
+            this.setSize(ancho+(2*margen), altura*9+(2*margen));
+        }
         this.setBackground(panel);
         crearCampos();
     }
     
     /**
-     * Crear cada uno de los JTextField, que van del 1 al 6, con su color de fondo,
+     * Crear cada uno de los JTextField, dependiendo del tipo de cuadricula, con su color de fondo,
      * color de letra, tamaño del borde, tipo de letra, posicion, y ancho y alto
      */
     public void crearCampos() {
         int posX = margen;
         int posY = margen;
-        
-        for (int fila = 0; fila < 6; fila++) {
+        int numeroCuadricula = 1;
+        if (Configuraciones.cuadricula3x3 == true) {
+            numeroCuadricula = 3;
+        }
+        if (Configuraciones.cuadricula4x4 == true) {
+            numeroCuadricula = 4;
+        }
+        if (Configuraciones.cuadricula5x5 == true) {
+            numeroCuadricula = 5;
+        }
+        if (Configuraciones.cuadricula6x6 == true) {
+            numeroCuadricula = 6;
+        }
+        if (Configuraciones.cuadricula7x7 == true) {
+            numeroCuadricula = 7;
+        }
+        if (Configuraciones.cuadricula8x8 == true) {
+            numeroCuadricula = 8;
+        }
+        if (Configuraciones.cuadricula9x9 == true) {
+            numeroCuadricula = 9;
+        }
+        for (int fila = 0; fila < numeroCuadricula; fila++) {
             JTextField campo = new JTextField();
             this.add(campo);
             campo.setBounds(posX, posY, ancho, altura);
@@ -171,7 +212,7 @@ public class Numeros extends JPanel{
      * ya que si solo se pasa el mouse por encima del panel de numeros, este cambiara su color, 
      * y al dar click a un JTextField del tablero y luego a un JTextField de este panel de numeros,
      * agregar ese numero a ese JTextField del tablero
-     * @param campo JTextField del panel de numeros (Del 1 al 6)
+     * @param campo JTextField del panel de numeros
      */
     public void accionTableroNumeros(JTextField campo) {
         MouseListener accion = new MouseListener() {

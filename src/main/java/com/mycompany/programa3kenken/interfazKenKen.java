@@ -1,5 +1,5 @@
 
-package com.mycompany.programa2kenken;
+package com.mycompany.programa3kenken;
 
 import java.awt.Color;
 import java.awt.event.ActionEvent;
@@ -34,6 +34,8 @@ public class interfazKenKen extends javax.swing.JFrame {
     private int horaInicial = 0;
     private int minutoInicial = 0;
     private int segundoInicial = 0;
+    private String nombreJugador = "";
+    private boolean validarNombre = false;
 
     
     /**
@@ -50,6 +52,11 @@ public class interfazKenKen extends javax.swing.JFrame {
         botonValidar.setEnabled(false);
         botonTerminar.setEnabled(false);
         botonOtroJuego.setEnabled(false);
+        labelNombre_Jugador.setVisible(true);
+        txtJugador.setVisible(true);
+        botonAceptarNombre.setVisible(true);
+        labelJugador.setVisible(false);
+        labelNombre.setVisible(false);
         if (Configuraciones.relojCronometro == true || Configuraciones.relojTimer == true) {
             labelCronometro.setVisible(true);
         }
@@ -97,10 +104,30 @@ public class interfazKenKen extends javax.swing.JFrame {
      */
     public void cargarComponentes() {
         tableroKenKen = new Tablero();
-        tableroKenKen.setTxtAltura(50);
-        tableroKenKen.setTxtAncho(50);
-        tableroKenKen.setTxtMargen(4);
-        tableroKenKen.setTxtLetra(25);
+        if (Configuraciones.cuadricula3x3 == true || Configuraciones.cuadricula4x4 == true || Configuraciones.cuadricula5x5 == true || Configuraciones.cuadricula6x6 == true) {
+            tableroKenKen.setTxtAltura(50);
+            tableroKenKen.setTxtAncho(50);
+            tableroKenKen.setTxtMargen(4);
+            tableroKenKen.setTxtLetra(25);
+        }
+        if (Configuraciones.cuadricula7x7 == true) {
+            tableroKenKen.setTxtAltura(44);
+            tableroKenKen.setTxtAncho(44);
+            tableroKenKen.setTxtMargen(4);
+            tableroKenKen.setTxtLetra(22);
+        }
+        if (Configuraciones.cuadricula8x8 == true) {
+            tableroKenKen.setTxtAltura(40);
+            tableroKenKen.setTxtAncho(40);
+            tableroKenKen.setTxtMargen(4);
+            tableroKenKen.setTxtLetra(20);
+        }
+        if (Configuraciones.cuadricula9x9 == true) {
+            tableroKenKen.setTxtAltura(36);
+            tableroKenKen.setTxtAncho(36);
+            tableroKenKen.setTxtMargen(4);
+            tableroKenKen.setTxtLetra(18);
+        }
         
         tableroKenKen.setColorPanel(Color.BLACK);
         
@@ -112,16 +139,57 @@ public class interfazKenKen extends javax.swing.JFrame {
         // 51,204,255
         tableroKenKen.setTxtColorLetra3(Color.WHITE);
         panel1.add(tableroKenKen);
-        tableroKenKen.setLocation(200, 60);
+        if (Configuraciones.cuadricula3x3 == true) {
+            tableroKenKen.setLocation(260, 60);
+        }
+        if (Configuraciones.cuadricula4x4 == true) {
+            tableroKenKen.setLocation(240, 60);
+        }
+        if (Configuraciones.cuadricula5x5 == true) {
+            tableroKenKen.setLocation(220, 60);
+        }
+        if (Configuraciones.cuadricula6x6 == true) {
+            tableroKenKen.setLocation(200, 60);
+        }
+        if (Configuraciones.cuadricula7x7 == true) {
+            tableroKenKen.setLocation(200, 60);
+        }
+        if (Configuraciones.cuadricula8x8 == true) {
+            tableroKenKen.setLocation(190, 60);
+        }
+        if (Configuraciones.cuadricula9x9 == true) {
+            tableroKenKen.setLocation(180, 60);
+        }
         tableroKenKen.setVisible(true);
         tableroKenKen.crearKenKen();
         
         
         panelDeNumeros = new Numeros();
-        panelDeNumeros.setAltura(50);
-        panelDeNumeros.setAncho(50);
-        panelDeNumeros.setMargen(4);
-        panelDeNumeros.setTamano(25);
+        if (Configuraciones.cuadricula3x3 == true || Configuraciones.cuadricula4x4 == true || Configuraciones.cuadricula5x5 == true || Configuraciones.cuadricula6x6 == true) {
+            panelDeNumeros.setAltura(50);
+            panelDeNumeros.setAncho(50);
+            panelDeNumeros.setMargen(4);
+            panelDeNumeros.setTamano(25);
+        }
+        if (Configuraciones.cuadricula7x7 == true) {
+            panelDeNumeros.setAltura(44);
+            panelDeNumeros.setAncho(44);
+            panelDeNumeros.setMargen(4);
+            panelDeNumeros.setTamano(22);
+        }
+        if (Configuraciones.cuadricula8x8 == true) {
+            panelDeNumeros.setAltura(40);
+            panelDeNumeros.setAncho(40);
+            panelDeNumeros.setMargen(4);
+            panelDeNumeros.setTamano(20);
+        }
+        if (Configuraciones.cuadricula9x9 == true) {
+            panelDeNumeros.setAltura(36);
+            panelDeNumeros.setAncho(36);
+            panelDeNumeros.setMargen(4);
+            panelDeNumeros.setTamano(18);
+        }
+        
         
         panelDeNumeros.setPanel(Color.BLACK);
         panelDeNumeros.setColorFondo1(Color.BLUE);
@@ -345,6 +413,11 @@ public class interfazKenKen extends javax.swing.JFrame {
         labelMinutos = new javax.swing.JLabel();
         labelSegundos = new javax.swing.JLabel();
         botonAceptarTimer = new javax.swing.JButton();
+        labelNombre_Jugador = new javax.swing.JLabel();
+        txtJugador = new javax.swing.JTextField();
+        botonAceptarNombre = new javax.swing.JButton();
+        labelNombre = new javax.swing.JLabel();
+        labelJugador = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -503,12 +576,40 @@ public class interfazKenKen extends javax.swing.JFrame {
         panel1.add(botonAceptarTimer);
         botonAceptarTimer.setBounds(650, 290, 110, 22);
 
+        labelNombre_Jugador.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        labelNombre_Jugador.setText("Nombre del jugador:");
+        panel1.add(labelNombre_Jugador);
+        labelNombre_Jugador.setBounds(610, 330, 150, 16);
+        panel1.add(txtJugador);
+        txtJugador.setBounds(620, 360, 120, 22);
+
+        botonAceptarNombre.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        botonAceptarNombre.setText("Aceptar");
+        botonAceptarNombre.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                botonAceptarNombreActionPerformed(evt);
+            }
+        });
+        panel1.add(botonAceptarNombre);
+        botonAceptarNombre.setBounds(750, 360, 90, 24);
+
+        labelNombre.setFont(new java.awt.Font("Arial", 1, 18)); // NOI18N
+        labelNombre.setForeground(new java.awt.Color(0, 51, 153));
+        labelNombre.setText("Nombre");
+        panel1.add(labelNombre);
+        labelNombre.setBounds(690, 60, 90, 20);
+
+        labelJugador.setFont(new java.awt.Font("Arial", 1, 18)); // NOI18N
+        labelJugador.setText("Jugador:");
+        panel1.add(labelJugador);
+        labelJugador.setBounds(610, 50, 90, 40);
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addComponent(panel1, javax.swing.GroupLayout.PREFERRED_SIZE, 848, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(panel1, javax.swing.GroupLayout.PREFERRED_SIZE, 860, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
@@ -618,6 +719,16 @@ public class interfazKenKen extends javax.swing.JFrame {
      * @param evt 
      */
     private void botonIniciarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botonIniciarActionPerformed
+        if (validarNombre == false) {
+           JOptionPane.showMessageDialog(null, "Debe dar algún nombre de jugador para poder jugar");
+        }
+        else {
+        labelNombre_Jugador.setVisible(false);
+        txtJugador.setVisible(false);
+        botonAceptarNombre.setVisible(false);
+        labelJugador.setVisible(true);
+        labelNombre.setVisible(true);
+        labelNombre.setText(nombreJugador);
         tableroKenKen.generarKenKen();
         botonIniciar.setEnabled(false);
         botonValidar.setEnabled(true);
@@ -641,7 +752,7 @@ public class interfazKenKen extends javax.swing.JFrame {
             botonAceptarTimer.setVisible(false);
             contador2.start();
         }
-        
+        }
         
     }//GEN-LAST:event_botonIniciarActionPerformed
 
@@ -788,6 +899,22 @@ public class interfazKenKen extends javax.swing.JFrame {
     }//GEN-LAST:event_botonAceptarTimerActionPerformed
 
     
+    /**
+     * Boton que comprueba y almacena el valor ingresado por el usuario en el JTextField, de
+     * nombre del jugador 
+     * @param evt 
+     */
+    private void botonAceptarNombreActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botonAceptarNombreActionPerformed
+        if (txtJugador.getText().length() >= 1 && txtJugador.getText().length() <= 40) {
+            nombreJugador = txtJugador.getText();
+            validarNombre = true;
+        }
+        else {
+            JOptionPane.showMessageDialog(null, "Error: El nombre del jugador de estar en un rango de letras de 1 a 40");
+        }
+    }//GEN-LAST:event_botonAceptarNombreActionPerformed
+
+    
     public static void main(String args[]) {
         
         java.awt.EventQueue.invokeLater(new Runnable() {
@@ -798,6 +925,7 @@ public class interfazKenKen extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton botonAceptarNombre;
     private javax.swing.JButton botonAceptarTimer;
     private javax.swing.JButton botonBorrar;
     private javax.swing.JButton botonDeshacer;
@@ -810,10 +938,14 @@ public class interfazKenKen extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel labelCronometro;
     private javax.swing.JLabel labelHoras;
+    private javax.swing.JLabel labelJugador;
     private javax.swing.JLabel labelMinutos;
+    private javax.swing.JLabel labelNombre;
+    private javax.swing.JLabel labelNombre_Jugador;
     private javax.swing.JLabel labelSegundos;
     private javax.swing.JPanel panel1;
     private javax.swing.JTextField txtHorasTimer;
+    private javax.swing.JTextField txtJugador;
     private javax.swing.JTextField txtMinutosTimer;
     private javax.swing.JTextField txtSegundosTimer;
     // End of variables declaration//GEN-END:variables
